@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Homework 2</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="main">
+			<h1>Create account / Log in</h1>
+			<form id="reg-form">
+				<input type="text" autocomplete="off" id="username" placeholder="Username" />
+				<input type="password" autocomplete="off" id="password" placeholder="Password" />
+				<div class="buttons">
+					<input type="button" id="form-button-login" value="Log in" />
+					<input type="submit" id="form-button" value="Sign up" />
+				</div>
+			</form>
+		</div>
+		<div class="todo">
+			<div class="user">
+				<button class="infoButton">Info</button>
+				<button class="changePasswordButton">Change password</button>
+				<button class="deleteProfileButton">Delete profile</button>
+				<button class="getNotesButton">Get my notes</button>
+				<button class="addNoteButton">Add note</button>
+				<button class="getNoteButton">Get note by id</button>
+			</div>
+			<div class="notes">
+				<h1>My notes</h1>
+			</div>
+		</div>
+
+		<script type="module" src="/js/script.js"></script>
+	</body>
+</html>
